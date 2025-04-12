@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>OVER BOT</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0d0d0d;
+      color: #f5f5f5;
+      background-image: url('https://i.imgur.com/CUoIZzW.gif');
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.85);
+      border-radius: 10px;
+    }
+
+    .top-image {
+      text-align: center;
+    }
+
+    .top-image img {
+      max-width: 200px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #ff5fc0;
+    }
+
+    .animated-text {
+      text-align: center;
+      font-size: 20px;
+      margin: 20px 0;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(-10px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    .card {
+      background: #1c1c1c;
+      border: 1px solid #ff5fc0;
+      border-radius: 10px;
+      margin: 15px 0;
+      padding: 15px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      background: #2a2a2a;
+    }
+
+    .card-content {
+      display: none;
+      margin-top: 10px;
+    }
+
+    a {
+      color: #ff5fc0;
+      text-decoration: none;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: #ff5fc0;
+      color: #000;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 13px;
+      margin-top: 30px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="top-image">
+      <img src="https://i.imgur.com/qYHD5lL.jpeg" alt="Criador">
+      <h1>OVER BOT</h1>
+      <p><strong>Criador:</strong> <a href="https://t.me/OverBan07" target="_blank">@ApelaWar71</a></p>
+    </div>
+
+    <div class="animated-text">Bem-vindo ao OVER BOT! Aqui você encontra tudo o que precisa para facilitar seu dia.</div>
+
+    <div class="card" onclick="toggleCard(this)">
+      <h2>Direitos Autorais</h2>
+      <div class="card-content">
+        <p>É proibido revender ou obter qualquer lucro com o OVER BOT sem autorização prévia. Caso tenha dúvidas, consulte o criador.</p>
+      </div>
+    </div>
+
+    <div class="card" onclick="toggleCard(this)">
+      <h2>Sobre o Criador</h2>
+      <div class="card-content">
+        <p>Eu criei esse bot para ajudar aqueles que precisam assistir filmes, animes ou aprender de forma gratuita. Em troca, peço apenas que apoiem a lojinha da OVER.</p>
+      </div>
+    </div>
+
+    <div class="card" onclick="toggleCard(this)">
+      <h2>Contatos</h2>
+      <div class="card-content">
+        <p>TELEGRAM: <a href="https://t.me/OverBan07/862">Clique aqui</a></p>
+        <p>YOUTUBE: <a href="https://youtube.com/@apelawar_yt?si=SGcioBtVUauXwB-N">Clique aqui</a></p>
+        <p>PINTEREST: <a href="https://br.pinterest.com/apelawar71">Clique aqui</a></p>
+      </div>
+    </div>
+
+    <div class="card" onclick="toggleCard(this)">
+      <h2>Funcionalidades do Bot</h2>
+      <div class="card-content">
+        <ul>
+          <li>Busca de animes e filmes online</li>
+          <li>Download de vídeos e músicas</li>
+          <li>Comandos rápidos e interface intuitiva</li>
+          <li>Atualizações frequentes com melhorias</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card" onclick="toggleCard(this)">
+      <h2>DMCA</h2>
+      <div class="card-content">
+        <p>O OVER BOT respeita os direitos autorais e atua como provedor de serviço conforme a DMCA. Qualquer infração pode ser reportada via formulário no bot.</p>
+      </div>
+    </div>
+
+    <div class="card" onclick="toggleCard(this)">
+      <h2>Termos de Uso</h2>
+      <div class="card-content">
+        <p>O bot é fornecido como está, sem garantias. O usuário é responsável pelo uso e pelo conteúdo acessado. Não armazenamos ou hospedamos arquivos, apenas redirecionamos para plataformas terceiras.</p>
+      </div>
+    </div>
+
+    <div class="card" onclick="toggleCard(this)">
+      <h2>Política de Privacidade</h2>
+      <div class="card-content">
+        <p>Não coletamos dados pessoais dos usuários. Toda interação é limitada aos comandos processados e não há rastreamento de informações sensíveis.</p>
+      </div>
+    </div>
+
+    <div class="card" onclick="toggleCard(this)">
+      <h2>Lojinha</h2>
+      <div class="card-content">
+        <p>Caso queira comprar algum item do OVER BOT, temos uma lojinha completa esperando por você!</p>
+        <a class="btn" href="https://beacons.ai/overbanofc7" target="_blank">Acessar Lojinha</a>
+        <p><strong>Suporte:</strong> <a href="https://t.me/OVERBANSUPORTE_BOT">Clique aqui</a></p>
+        <p><strong>Referências:</strong> <a href="https://t.me/+uFFspjkTUqdkZmZh">Clique aqui</a></p>
+      </div>
+    </div>
+
+    <div class="footer">
+      © OVER BOT - Todos os direitos reservados | Desenvolvido por <a href="https://t.me/OverBan07">@ApelaWar71</a>
+    </div>
+  </div>
+
+  <script>
+    function toggleCard(element) {
+      const content = element.querySelector(".card-content");
+      const isVisible = content.style.display === "block";
+      document.querySelectorAll(".card-content").forEach(el => el.style.display = "none");
+      content.style.display = isVisible ? "none" : "block";
+    }
+  </script>
+</body>
+</html>
